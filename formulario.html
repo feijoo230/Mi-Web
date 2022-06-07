@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro en la Pagina Web</title>
+</head>
+<body>
+<form action="procesa.php" method="post" enctype="multipart/form-data">
+		        	<label>Nombre</label>
+		        	<input type="text" id="nombre" name="nombre" value="" /></br>
+
+		        	<label for="email">Email</label></br>
+		        	<input type="email" name="email"/ novalidate ></br>
+
+		        	<label>Contaseña</label></br>
+		        	<input type="password"></br>
+
+		       		<label>Fecha y hora</label>
+		        	<input type="date" name="fyh"></br>
+
+	        		<label for="Tipo">Acceder como</label></br>
+	     			<select id="Tipo" name="tipo de usuario">
+		       			<option value="1">Profesor</option>
+		       			<option value="2">Estudiante</option>
+		       		</select></br>
+		       		
+		       		<label for="materia">Materia que necesitas ayuda</label></br>
+		       		<input type="checkbox" name="e1"> MPI </br>
+		        	<input type="checkbox" name="e2"> EP </br>
+
+		       		<label for="Categoria">Categoria de Estudiante</label></br>
+		       		<input type="radio" name="Categoria">Ingesante</br>
+		       		<input type="radio" name="Categoria">Avanzado</br>
+		       		
+		       		<label for="archivo">Suba el apunte para colaborar</label>
+		      		<input type="file" id="apunte" name="apunte"></br>
+		       		<input type="submit"></br>
+		       		<input type="reset"></br>
+		        </form>
+
+</body>
+</html>
